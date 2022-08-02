@@ -1,0 +1,22 @@
+{
+	"ts-node": {
+		"transpileOnly": true,
+		"files": true,
+		"ignore": ["(?:^|/)node_modules/"]
+	},
+	"compilerOptions": {
+		"strict": true,
+		"target": "ESNext",
+		"lib": ["ESNext"],
+		"module": "NodeNext",
+		"moduleResolution": "Node",
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["src/**/*", "api.config.ts"]
+}
